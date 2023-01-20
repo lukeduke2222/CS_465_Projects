@@ -42,3 +42,18 @@ int getInvsBoxValue(int num) {
 
     return invs_box[left][right];
 }
+
+void subword(word_t word) {
+    word[0] = getSBoxValue(word[0]);
+    word[1] = getSBoxValue(word[1]);
+    word[2] = getSBoxValue(word[2]);
+    word[3] = getSBoxValue(word[3]);
+}
+
+void rotword(word_t word) {
+    byte temp = word[0];
+    word[0] = word[1];
+    word[1] = word[2];
+    word[2] = word[3];
+    word[3] = temp;
+}
