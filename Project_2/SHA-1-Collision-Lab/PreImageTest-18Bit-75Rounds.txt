@@ -1,0 +1,3 @@
+Beginning 75 Round PreImage Test
+Trial #01:	105604th hash
+Trial #02:	200359th hash

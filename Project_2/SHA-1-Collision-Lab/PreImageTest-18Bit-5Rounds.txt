@@ -1,0 +1,9 @@
+Beginning 5 Round PreImage Test
+Trial #01:	8998th hash
+Trial #02:	140877th hash
+Trial #03:	422448th hash
+Trial #04:	221476th hash
+Trial #05:	456337th hash
+
+Expected avg number of hashes: 262144
+Actual avg number of hashes: 250027.20

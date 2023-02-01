@@ -1,0 +1,9 @@
+Beginning 5 Round Collision Test
+Trial #01:	1420th hash
+Trial #02:	1483th hash
+Trial #03:	1006th hash
+Trial #04:	3032th hash
+Trial #05:	744th hash
+
+Expected avg number of hashes: 1024
+Actual avg number of hashes: 1537.00
