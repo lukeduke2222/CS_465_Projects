@@ -1,10 +1,3 @@
-import java.io.BufferedReader;
-import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Scanner;
-
 public class Main {
     private final static int ROUNDS = 75;
     private final static int ROUNDS_LARGE = 5;

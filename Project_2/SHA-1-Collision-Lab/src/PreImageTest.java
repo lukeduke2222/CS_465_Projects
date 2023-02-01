@@ -1,6 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
 public class PreImageTest {
     int toMatch;
     int numHashes;
