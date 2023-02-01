@@ -14,22 +14,6 @@ public class Main {
 
         PreImageTest preImageTest = new PreImageTest();
         CollisionTest collisionTest = new CollisionTest();
-//
-//        String filename = "PreImageTest-"+6+"Bit-"+ROUNDS+"Rounds.txt";
-//        String data = String.format("Beginning %d Round PreImage Test\n", ROUNDS);
-//        TestLog.overrideFile(filename, data);
-//
-//        double hashSum = 0;
-//        for(int i = 0; i < ROUNDS; i++) {
-//            hashSum +=   preImageTest.run(6, ROUNDS, i+1);
-//        }
-//        int expectedNumHashes = (int)Math.pow(2, 6);
-//        data = String.format("Expected avg number of hashes: %d\nActual avg number of hashes: %.2f",
-//                expectedNumHashes, (hashSum/ROUNDS));
-//        TestLog.appendToFile(filename, data);
-
-
-
 
         int[] bitSizes = {6, 8, 10, 12, 14, 16};
         for (int numBits : bitSizes) {
