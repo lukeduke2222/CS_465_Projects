@@ -69,7 +69,7 @@ public class Main {
                     expectedNumHashes, (hashSum/ROUNDS_LARGE));
             TestLog.appendToFile(filename, data);
 
-            ////---------------------------------------------------////
+            ////--------------------------------------------------////
 
             filename = "CollisionTest-"+numBits+"Bit-"+ROUNDS_LARGE+"Rounds.txt";
             data = String.format("Beginning %d Round Collision Test\n", ROUNDS_LARGE);
